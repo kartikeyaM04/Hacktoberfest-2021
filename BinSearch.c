@@ -5,7 +5,7 @@ int BinSearch(int[],int,int,int);
 void main()
 {
     int A[20],n,key,i,x;
-    printf("Enter the number of elements: ");
+    printf("Enter the number of elements: "); // Take an input from the user
     scanf("%d",&n);
     readArr(A,n);
     printf("Enter the element to search: ");
